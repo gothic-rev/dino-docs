@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/gothic-rev/dino-docs',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/gothic-rev/dino-docs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -84,14 +84,14 @@ const config = {
           },
           {to: '/docs/About', label: 'About', position: 'left'},
           {
-            href: 'docs/About',
-            label: 'GitHub',
+            href: '/docs/About',
+            label: 'About',
             position: 'right',
           },
           {to: '/docs/Contact', label: 'Contact', position: 'left'},
           {
-            href: 'docs/Contact',
-            label: 'GitHub',
+            href: '/docs/Contact',
+            label: 'Contact',
             position: 'right',
           },
         ],
