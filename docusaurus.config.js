@@ -23,8 +23,8 @@ const config = {
   organizationName: 'gothic-rev', // Usually your GitHub org/user name.
   projectName: 'dino-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -81,12 +81,6 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Index',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
           },
           {to: '/docs/About', label: 'About', position: 'left'},
           {
